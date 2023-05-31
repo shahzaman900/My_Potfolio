@@ -46,16 +46,16 @@ After you're finished please remove all the comments and instructions!
 -   [💻 Getting Started](#getting-started)
     -   [Setup](#setup)
     -   [Prerequisites](#prerequisites)
-    -   [Install](#install)
+    <!-- -   [Install](#install)
     -   [Usage](#usage)
     -   [Run tests](#run-tests)
-    -   [Deployment](#deployment)
+    -   [Deployment](#deployment) -->
 -   [👥 Authors](#authors)
 -   [🔭 Future Features](#future-features)
 -   [🤝 Contributing](#contributing)
 -   [⭐️ Show your support](#support)
--   [🙏 Acknowledgements](#acknowledgements)
--   [❓ FAQ (OPTIONAL)](#faq)
+<!-- -   [🙏 Acknowledgements](#acknowledgements)
+-   [❓ FAQ (OPTIONAL)](#faq) -->
 -   [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->

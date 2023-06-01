@@ -107,9 +107,9 @@ After you're finished please remove all the comments and instructions!
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
+<!-- ## 🚀 Live Demo <a name="live-demo"></a>
 
-> We will add live demo Demo in future releases.
+> We will add live demo Demo in future releases. -->
 
 <!-- - [Live Demo Link](https://google.com) -->
 
@@ -250,6 +250,6 @@ I would like to thank... -->
 
 ## 📝 License <a name="license"></a>
 
-This project is MIT licensed.
+This project is [MIT](./LICENSE.MD) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

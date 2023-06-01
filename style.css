@@ -27,6 +27,7 @@ p{
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
+  color: var(--bodyTextColor);
 }
 
 @media screen and (min-width: 340px) {
@@ -86,9 +87,18 @@ p{
   padding: 1rem;
 }
 
+#its_connect{
+  color: var(--primaryColor);
+}
+
 .social_icons{
   display: flex;
   gap: 1rem;
+}
+
+.icons{
+  width: 24px;
+  height: 24px;
 }
 
 }

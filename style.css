@@ -14,6 +14,20 @@ body {
 	background-color: #f7f7f9;
 	height: 100vh;
 }
+h2{
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 52px;
+  color: var(--headingtextColor);
+}
+
+p{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
 
 @media screen and (min-width: 340px) {
 
@@ -51,12 +65,13 @@ body {
 
 #headline_section{
   padding-top: 2rem;
-  height: calc(100vh - 48px);
   background-color: white;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start;
+  padding: 114px 24px;
+  gap: 12px;
+  /* justify-content: center; */
   background-image: url(./images/header-shapes\ mobile.svg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -67,8 +82,13 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 1rem;
+  gap: 2rem;
   padding: 1rem;
+}
+
+.social_icons{
+  display: flex;
+  gap: 1rem;
 }
 
 }

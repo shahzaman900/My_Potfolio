@@ -70,24 +70,56 @@
 ### Prerequisites
 
 In order to run this project you need:
-setup linter
-open this link: https://github.com/microverseinc/linters-config/tree/master/html-css
-copy this folder to your project at root directory
+
+- A web browser to view output e.g [Google Chrome](https://www.google.com/chrome/).
+- An IDE e.g [Visual studio code](https://code.visualstudio.com/).
+- `node` should be installed in your local machine, [node website](https://nodejs.org/en/download/).
+- Install the `npm` package manager use this [to install both node and npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
+- [A terminal](https://code.visualstudio.com/docs/terminal/basics).
+
 
 ### Setup
 
-Clone this repository to your desired folder:
+Clone this repository to your desired folder or download the Zip folder:
 
-First clone this repository [@Project](https://github.com/sheezu900/My_Potfolio)
+```
+git clone https://github.com/sheezu900/My_Potfolio.git
+```
 
+- Navigate to the location of the folder in your machine:
+
+**``you@your-Pc-name:~$ cd desktop``**
+
+### Install
+
+To install all dependencies, run:
+
+```
+npm install
+```
 
 ### Usage
 
-To run the project, execute the following command:
+To run the project, follow these instructions:
+
+- After Cloning this repo to your local machine.
+- To get it running on your default browser and local host, run:
+```
+npm start
+```
+
+### Run tests
 
 To run tests, run the following command:
-install liveserver extension
-right click on index.html and click on live server
+
+- Track HTML linter errors run:
+```
+npx hint .
+```
+- Track CSS linter errors run:
+```
+npx stylelint "**/*.{css,scss}"
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -111,8 +143,6 @@ right click on index.html and click on live server
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- CONTRIBUTING -->
-
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
@@ -121,18 +151,19 @@ Contributions, issues, and feature requests are welcome!
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+Give a ⭐️ if you like this project and how I managed to build it!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank... -->
+- The original design ideal from Microverse💕.
+- Project from [Microverse](https://bit.ly/MicroverseTN) module 1.
+- Thanks to the Microverse team for the great curriculum.
+- Thanks to the Code Reviewer(s) for the insightful feedbacks.
+- A great thanks to My coding partner(s), morning session team, and standup team for their contributions.
+- Hat tip to anyone whose code was used.
 
 ## 📝 License <a name="license"></a>
 

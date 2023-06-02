@@ -67,9 +67,6 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-
-To get a local copy up and running, follow these steps.
-
 ### Prerequisites
 
 In order to run this project you need:
@@ -82,11 +79,6 @@ copy this folder to your project at root directory
 Clone this repository to your desired folder:
 
 First clone this repository <a href="#https://github.com/sheezu900/My_Potfolio">back to top</a>
-
-### Install
-
-Install this project with:
-
 
 ### Usage
 

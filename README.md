@@ -78,7 +78,8 @@ copy this folder to your project at root directory
 
 Clone this repository to your desired folder:
 
-First clone this repository <a href="#https://github.com/sheezu900/My_Potfolio">back to top</a>
+First clone this repository [@Project](https://github.com/sheezu900/My_Potfolio)
+
 
 ### Usage
 
@@ -116,11 +117,7 @@ right click on index.html and click on live server
 
 Contributions, issues, and feature requests are welcome!
 
-<!-- Feel free to check the [issues page](../../issues/). -->
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
 

@@ -60,6 +60,13 @@ h2 {
   color: #172b4d;
 }
 
+h5 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
 p {
   font-style: normal;
   font-weight: 400;
@@ -96,6 +103,10 @@ ul {
         font-size: 18px;
         line-height: 20px;
       }
+
+      #Menu {
+        display: none;
+      }
     }
 
     .menu {
@@ -129,7 +140,7 @@ ul {
       gap: 2rem;
       padding: 1rem;
 
-      #its_connect {
+      .its_connect {
         color: var(--primaryColor);
       }
 
@@ -141,6 +152,153 @@ ul {
         .icons {
           width: 24px;
           height: 24px;
+        }
+      }
+    }
+  }
+
+  #works {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 114px 24px;
+    gap: 88px;
+
+    .card_works {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 16px;
+      gap: 12px;
+      background: white;
+      border: 1px solid #def1e6;
+      border-radius: 16px;
+
+      .snapshoot_portpolio {
+        width: 295px;
+        height: 220px;
+        background: url(./images/SnapshootPortfolio.svg);
+        border-radius: 8px;
+      }
+
+      .card_detail {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+        width: 100%;
+
+        .card_title {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+
+          .card_history {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+
+            .card_history_detail {
+              display: flex;
+              flex-direction: row;
+              align-items: center;
+              padding: 8px 0.2px;
+            }
+          }
+        }
+
+        .card_tags {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          gap: 8px;
+
+          .tag {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 4px 12px;
+            background: #ebebff;
+            border-radius: 8px;
+          }
+        }
+      }
+    }
+  }
+
+  #about_myself {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 114px 24px;
+    gap: 24px;
+    background: white;
+    border-radius: 0 5rem 0 0;
+
+    .myself {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 12px;
+
+      .its_connect {
+        color: var(--primaryColor);
+      }
+
+      .social_icons {
+        list-style: none;
+        display: flex;
+        gap: 1rem;
+
+        .icons {
+          width: 24px;
+          height: 24px;
+        }
+      }
+    }
+
+    .myskills {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .languages {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .lan_head {
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          padding: 1rem 0.1px;
+        }
+
+        .lan_list {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 12px;
+          width: 100%;
+
+          .lan_list_detail {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            width: 100%;
+            padding: 8px 0.1px;
+            background: #f7f7f9;
+            border-radius: 8px;
+            gap: 1rem;
+
+            .list_img {
+              padding-left: 8px;
+              width: 48px;
+              height: 48px;
+            }
+          }
         }
       }
     }

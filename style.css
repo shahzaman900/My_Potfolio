@@ -28,22 +28,10 @@ button.small {
   letter-spacing: 0.03em;
   color: #6070ff;
   border: none;
-}
-
-/* button.secondary {
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #396df2;
-  padding: 12px;
-  border: 1px solid #6070ff;
+  padding: 4px 12px;
+  background: #ebebff;
   border-radius: 8px;
-  background: none;
-} */
+}
 
 button {
   font-weight: 500;
@@ -193,18 +181,16 @@ ul {
   }
 
   #works {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: grid;
+    align-content: center;
     padding: 114px 24px;
-    gap: 88px;
+    grid-gap: 88px;
 
     .card_works {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+      display: grid;
+      align-content: center;
       padding: 16px;
-      gap: 12px;
+      grid-gap: 12px;
       background: white;
       border: 1px solid #def1e6;
       border-radius: 16px;
@@ -217,45 +203,35 @@ ul {
       }
 
       .card_detail {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 12px;
+        display: grid;
+        align-content: start;
+        grid-gap: 12px;
         width: 100%;
 
         .card_title {
-          display: flex;
-          flex-direction: column;
-          align-items: flex-start;
+          display: grid;
+          justify-content: start;
 
           .card_history {
-            display: flex;
+            display: grid;
+            grid-auto-flow: column;
+            justify-content: center;
             align-items: center;
-            gap: 6px;
+            grid-gap: 12px;
+        }
 
             .card_history_detail {
-              display: flex;
-              flex-direction: row;
-              align-items: center;
               padding: 8px 0.2px;
             }
           }
         }
 
         .card_tags {
-          display: flex;
-          flex-direction: row;
+          display: grid;
+          grid-auto-flow: column;
+          justify-content: start;
           align-items: center;
-          gap: 8px;
-
-          .tag {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            padding: 4px 12px;
-            background: #ebebff;
-            border-radius: 8px;
-          }
+          grid-gap: 8px;
         }
       }
     }

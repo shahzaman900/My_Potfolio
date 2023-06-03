@@ -159,7 +159,6 @@ ul {
 
   #works {
     display: grid;
-    /* flex-direction: column; */
     align-content: center;
     padding: 114px 24px;
     grid-gap: 88px;

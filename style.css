@@ -28,9 +28,12 @@ button.small {
   letter-spacing: 0.03em;
   color: #6070ff;
   border: none;
+  padding: 4px 12px;
+  background: #ebebff;
+  border-radius: 8px;
 }
 
-button.secondary {
+button {
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
@@ -38,11 +41,31 @@ button.secondary {
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #396df2;
   padding: 12px;
-  border: 1px solid #6070ff;
   border-radius: 8px;
-  background: none;
+}
+
+button:enabled {
+  color: #396df2;
+  border: 1px solid #7f8cff;
+  background: white;
+}
+
+button:hover {
+  color: white;
+  border: 1px solid #7f8cff;
+  background: #6070ff;
+  box-shadow: 0.1px 8px 16px rgba(64, 83, 252, 0.24);
+}
+
+button:active {
+  color: white;
+  background: #2230d2;
+}
+
+button:disabled {
+  color: #5e6c84;
+  border: 1px solid #c1c7d0;
 }
 
 h1 {
@@ -152,6 +175,134 @@ ul {
         .icons {
           width: 24px;
           height: 24px;
+        }
+      }
+    }
+  }
+
+  #works {
+    display: grid;
+    align-content: center;
+    padding: 114px 24px;
+    grid-gap: 88px;
+
+    .card_works {
+      display: grid;
+      align-content: center;
+      padding: 16px;
+      grid-gap: 12px;
+      background: white;
+      border: 1px solid #def1e6;
+      border-radius: 16px;
+
+      .snapshoot_portpolio {
+        width: 295px;
+        height: 220px;
+        background: url(./images/SnapshootPortfolio.svg);
+        border-radius: 8px;
+      }
+
+      .card_detail {
+        display: grid;
+        align-content: start;
+        grid-gap: 12px;
+        width: 100%;
+
+        .card_title {
+          display: grid;
+          justify-content: start;
+
+          .card_history {
+            display: grid;
+            grid-auto-flow: column;
+            justify-content: center;
+            align-items: center;
+            grid-gap: 12px;
+          }
+
+          .card_history_detail {
+            padding: 8px 0.2px;
+          }
+        }
+      }
+
+      .card_tags {
+        display: grid;
+        grid-auto-flow: column;
+        justify-content: start;
+        align-items: center;
+        grid-gap: 8px;
+      }
+    }
+  }
+
+  #about_myself {
+    display: grid;
+    padding: 114px 24px;
+    grid-gap: 24px;
+    background: white;
+    border-radius: 0 5rem 0 0;
+
+    .myself {
+      display: grid;
+      grid-gap: 12px;
+
+      .its_connect {
+        color: var(--primaryColor);
+      }
+
+      .social_icons {
+        list-style: none;
+        display: grid;
+        grid-auto-flow: column;
+        justify-content: start;
+        grid-gap: 1rem;
+
+        .icons {
+          width: 24px;
+          height: 24px;
+        }
+      }
+    }
+
+    .myskills {
+      width: 100%;
+      display: grid;
+
+      .languages {
+        width: 100%;
+        display: grid;
+
+        .lan_head {
+          width: 100%;
+          display: grid;
+          grid-auto-flow: column;
+          justify-content: space-between;
+          padding: 1rem 0.1px;
+        }
+
+        .lan_list {
+          display: grid;
+          gap: 12px;
+          width: 100%;
+
+          .lan_list_detail {
+            display: grid;
+            grid-auto-flow: column;
+            justify-content: start;
+            align-items: center;
+            width: 100%;
+            padding: 8px 0.1px;
+            background: #f7f7f9;
+            border-radius: 8px;
+            gap: 1rem;
+
+            .list_img {
+              padding-left: 10px;
+              width: 48px;
+              height: 48px;
+            }
+          }
         }
       }
     }

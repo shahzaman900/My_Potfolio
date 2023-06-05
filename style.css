@@ -233,6 +233,11 @@ ul {
         align-items: center;
         grid-gap: 8px;
       }
+
+      .tag {
+        float: left;
+        padding-right: 0.5rem;
+      }
     }
   }
 

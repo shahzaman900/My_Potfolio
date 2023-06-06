@@ -364,6 +364,25 @@ ul {
 
       .submitt {
         align-self: flex-start;
+        background: white;
+        border: 1px solid #7f8cff;
+        border-radius: 8px;
+      }
+
+      .submitt:hover {
+        background: #6070ff;
+        box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+        border-radius: 8px;
+      }
+
+      .submitt:active {
+        background: #2230d2;
+        border-radius: 8px;
+      }
+
+      .submitt:disabled {
+        border: 1px solid #c1c7c0;
+        border-radius: 8px;
       }
     }
   }

@@ -319,5 +319,39 @@ ul {
     grid-gap: 24px;
     background: #6070ff;
     border-radius: 5rem 0 0 0;
+    background-image: url(./images/contact\ form\ shapes-mobile.svg);
+    background-size: cover;
+
+  .contact_detail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+    .head{
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 52px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      color: #FFFFFF;
+    }
+    .detail{
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 28px;
+      text-align: center;
+      color: #EBEBFF;
+      
+    }
   }
+  
+  }
+
 }
+

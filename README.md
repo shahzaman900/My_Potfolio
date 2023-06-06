@@ -56,11 +56,11 @@
 
 ### Key Features <a name="key-features"></a>
 
-> There are three key my porfolio.
-
--   **You can see my project**
--   **You can see my work history**
--   **You can contact me through fill the the form**
+> There are four key my porfolio.
+- Use the Figma design for the project😊👌
+- Use the semantics elements💯
+- Use the validation HTML for the form .🚀
+- Use Form spree for the contact form 😃👍
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

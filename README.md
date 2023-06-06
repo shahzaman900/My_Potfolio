@@ -37,8 +37,6 @@
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> In this project i use the following technology stack
-
 <details>
   <summary>HTML</summary>
   <ul>
@@ -56,7 +54,6 @@
 
 ### Key Features <a name="key-features"></a>
 
-> There are four key my porfolio.
 - Use the Figma design for the project😊👌
 - Use the semantics elements💯
 - Use the validation HTML for the form .🚀
@@ -134,8 +131,6 @@ npx stylelint "**/*.{css,scss}"
 
 
 ## 🔭 Future Features <a name="future-features"></a>
-
-> We will add 3 new features to this project
 
 - Add popup details for the project👌.
 - Add more styling like animation 💯.

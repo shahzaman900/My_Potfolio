@@ -33,8 +33,6 @@
 
 > This website shows a sneak peek into the projects I have developed and deployed, showcasing my skills in HTML and CSS.With a passion for web development, I have honed my expertise in these technologies to create stunning and functional websites.
 
-**My Personal Portfolio** is a...
-
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -106,9 +104,9 @@ To run the project, follow these instructions:
 
 - After Cloning this repo to your local machine.
 - To get it running on your default browser and local host, run:
-```
-npm start
-```
+
+1. Open the index with live server from the code editor
+2. Or you can double click on the index to open it in the browser
 
 ### Run tests
 

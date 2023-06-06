@@ -31,7 +31,7 @@
 
 # 📖 My Personal Portfolio <a name="about-project"></a>
 
-> This is my personal portfolio project in which you will see my best projects, job history and social networks links.
+> This website shows a sneak peek into the projects I have developed and deployed, showcasing my skills in HTML and CSS.With a passion for web development, I have honed my expertise in these technologies to create stunning and functional websites.
 
 **My Personal Portfolio** is a...
 

@@ -147,6 +147,8 @@ npx stylelint "**/*.{css,scss}"
 
 Contributions, issues, and feature requests are welcome!
 
+Feel free to leave any suggestions at the [Issues page](https://github.com/sheezu900/My_Potfolio/issues)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## ⭐️ Show your support <a name="support"></a>

@@ -126,7 +126,7 @@ npx stylelint "**/*.{css,scss}"
 👤 **Shah Zaman**
 
 -   GitHub: [@githubhandle](https://github.com/sheezu900/)
--   Github: [@Github](https://www.linkedin.com/in/shahzaman900/)
+-   LinkedIn: [@Linkedin](https://www.linkedin.com/in/shahzaman900/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

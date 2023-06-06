@@ -137,9 +137,9 @@ npx stylelint "**/*.{css,scss}"
 
 > We will add 3 new features to this project
 
--   [ ] **Projects**
--   [ ] **Contact form**
--   [ ] **Job History**
+- Add popup details for the project👌.
+- Add more styling like animation 💯.
+- Add mobile menu for the responsive header navs🚀.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

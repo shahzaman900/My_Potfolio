@@ -323,69 +323,68 @@ ul {
     background-image: url(./images/contact\ form\ shapes-mobile.svg);
     background-position: right;
     background-repeat: no-repeat;
-}
+  }
 
-    .contact_detail {
+  .contact_detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+    .head {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 52px;
       display: flex;
-      flex-direction: column;
       align-items: center;
-      gap: 20px;
-
-      .head {
-        font-style: normal;
-        font-weight: 700;
-        font-size: 40px;
-        line-height: 52px;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        color: white;
-      }
-
-      .detail {
-        font-style: normal;
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 28px;
-        text-align: center;
-        color: #ebebff;
-      }
+      text-align: center;
+      color: white;
     }
 
-    .form {
-      display: flex;
-      flex-direction: column;
-      gap: 1rem;
+    .detail {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 28px;
+      text-align: center;
+      color: #ebebff;
+    }
+  }
 
-      .input {
-        padding: 12px;
-        background: white;
-        border: 1px solid #cfd8dc;
-        border-radius: 8px;
-      }
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 
-      .submitt {
-        align-self: flex-start;
-        background: white;
-        border: 1px solid #7f8cff;
-        border-radius: 8px;
-      }
+    .input {
+      padding: 12px;
+      background: white;
+      border: 1px solid #cfd8dc;
+      border-radius: 8px;
+    }
 
-      .submitt:hover {
-        background: #6070ff;
-        box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
-        border-radius: 8px;
-      }
+    .submitt {
+      align-self: flex-start;
+      background: white;
+      border: 1px solid #7f8cff;
+      border-radius: 8px;
+    }
 
-      .submitt:active {
-        background: #2230d2;
-        border-radius: 8px;
-      }
+    .submitt:hover {
+      background: #6070ff;
+      box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+      border-radius: 8px;
+    }
 
-      .submitt:disabled {
-        border: 1px solid #c1c7c0;
-        border-radius: 8px;
-      }
+    .submitt:active {
+      background: #2230d2;
+      border-radius: 8px;
+    }
+
+    .submitt:disabled {
+      border: 1px solid #c1c7c0;
+      border-radius: 8px;
     }
   }
 }

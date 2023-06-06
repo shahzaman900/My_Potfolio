@@ -312,4 +312,12 @@ ul {
       }
     }
   }
+
+  #contact_form {
+    display: flex;
+    padding: 114px 24px;
+    grid-gap: 24px;
+    background: #6070ff;
+    border-radius: 5rem 0 0 0;
+  }
 }

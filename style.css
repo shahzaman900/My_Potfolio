@@ -321,7 +321,9 @@ ul {
     background: #6070ff;
     border-radius: 5rem 0 0 0;
     background-image: url(./images/contact\ form\ shapes-mobile.svg);
-    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+}
 
     .contact_detail {
       display: flex;

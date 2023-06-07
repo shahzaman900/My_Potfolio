@@ -31,15 +31,11 @@
 
 # 📖 My Personal Portfolio <a name="about-project"></a>
 
-> This is my personal portfolio project in which you will see my best projects, job history and social networks links.
-
-**My Personal Portfolio** is a...
+> This website shows a sneak peek into the projects I have developed and deployed, showcasing my skills in HTML and CSS.With a passion for web development, I have honed my expertise in these technologies to create stunning and functional websites.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
-
-> In this project i use the following technology stack
 
 <details>
   <summary>HTML</summary>
@@ -58,11 +54,10 @@
 
 ### Key Features <a name="key-features"></a>
 
-> There are three key my porfolio.
-
--   **You can see my project**
--   **You can see my work history**
--   **You can contact me through fill the the form**
+- Use the Figma design for the project😊👌
+- Use the semantics elements💯
+- Use the validation HTML for the form .🚀
+- Use Form spree for the contact form 😃👍
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -106,9 +101,9 @@ To run the project, follow these instructions:
 
 - After Cloning this repo to your local machine.
 - To get it running on your default browser and local host, run:
-```
-npm start
-```
+
+1. Open the index with live server from the code editor
+2. Or you can double click on the index to open it in the browser
 
 ### Run tests
 
@@ -131,23 +126,24 @@ npx stylelint "**/*.{css,scss}"
 👤 **Shah Zaman**
 
 -   GitHub: [@githubhandle](https://github.com/sheezu900/)
+-   LinkedIn: [@Linkedin](https://www.linkedin.com/in/shahzaman900/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> We will add 3 new features to this project
-
--   [ ] **Projects**
--   [ ] **Contact form**
--   [ ] **Job History**
+- Add popup details for the project👌.
+- Add more styling like animation 💯.
+- Add mobile menu for the responsive header navs🚀.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
+
+Feel free to leave any suggestions at the [Issues page](https://github.com/sheezu900/My_Potfolio/issues)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

@@ -118,17 +118,14 @@ ul {
     .logo-placeholder {
       padding: 10px 12px;
       margin-left: 12px;
-
-      .logo {
-        color: var(--primaryColor);
-        font-style: normal;
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 20px;
-      }
+      color: var(--primaryColor);
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 20px;
     }
 
-    #Menu {
+    .Menu {
       display: none;
       gap: 1rem;
       padding: 8px;
@@ -155,7 +152,7 @@ ul {
     align-items: flex-start;
     padding: 114px 24px;
     gap: 12px;
-    background-image: url(./images/header-shapes\ mobile.svg);
+    background-image: url(./images/header_shapes_mobile.svg);
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 0 0 0 5rem;
@@ -419,7 +416,7 @@ ul {
       line-height: 20px;
     }
 
-    #Menu {
+    .Menu {
       display: flex;
       gap: 1rem;
       margin-right: 24px;
@@ -432,36 +429,54 @@ ul {
   }
 
   #headline_section {
-    background-color: white;
+    padding: 0;
+    height: 80vh;
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 114px 24px;
-    gap: 12px;
-    background-image: url(./images/header-shapes\ mobile.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 0 0 0 5rem;
+    align-items: center;
+    justify-content: center;
+    background-image: none;
 
-    .headline {
+    .bg {
       display: flex;
       flex-direction: column;
-      align-items: flex-start;
-      gap: 2rem;
-      padding: 1rem;
+      align-items: center;
+      justify-content: center;
+      width: 98%;
+      height: 90%;
+      background-image: url(./images/Header_bg_for_desktop.svg);
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
 
-      #its_connect {
-        color: var(--primaryColor);
-      }
+      .headline {
+        width: 60%;
+        padding: 1rem;
 
-      .social_icons {
-        list-style: none;
-        display: flex;
-        gap: 1rem;
+        .heading {
+          font-size: 48px;
+          line-height: 60px;
+          width: 50%;
+        }
 
-        .icons {
-          width: 24px;
-          height: 24px;
+        .discription {
+          font-size: 20px;
+          line-height: 28px;
+          width: 80%;
+        }
+
+        #its_connect {
+          color: var(--primaryColor);
+        }
+
+        .social_icons {
+          list-style: none;
+          display: flex;
+          gap: 1rem;
+
+          .icons {
+            width: 24px;
+            height: 24px;
+          }
         }
       }
     }
@@ -470,17 +485,26 @@ ul {
   #works {
     display: grid;
     align-content: center;
+    justify-content: center;
     padding: 114px 24px;
     grid-gap: 88px;
 
     .card_works {
       display: grid;
+      grid-auto-flow: column;
       align-content: center;
       padding: 16px;
       grid-gap: 12px;
       background: white;
       border: 1px solid #def1e6;
       border-radius: 16px;
+      height: 500px;
+      width: 100%;
+
+      .card_image {
+        height: 450px;
+        width: auto;
+      }
 
       .snapshoot_portpolio {
         width: 295px;
@@ -536,7 +560,7 @@ ul {
   }
 
   #about_myself {
-    display: grid;
+    display: none;
     padding: 114px 24px;
     grid-gap: 24px;
     background: white;
@@ -608,7 +632,7 @@ ul {
   }
 
   #contact_form {
-    display: flex;
+    display: none;
     flex-direction: column;
     padding: 114px 24px;
     grid-gap: 24px;

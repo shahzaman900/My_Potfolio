@@ -191,10 +191,13 @@ ul {
       display: grid;
       align-content: center;
       padding: 16px;
-      grid-gap: 12px;
       background: white;
       border: 1px solid #def1e6;
       border-radius: 16px;
+
+      .card_image {
+        padding-bottom: 1rem;
+      }
 
       .snapshoot_portpolio {
         width: 295px;
@@ -399,31 +402,13 @@ ul {
 
 @media screen and (min-width: 768px) {
   #header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    background-color: white;
     padding: 1rem 143px;
-
-    .logo-placeholder {
-      padding: 10px 12px;
-      margin-left: 12px;
-      color: var(--primaryColor);
-      font-style: normal;
-      font-weight: 700;
-      font-size: 18px;
-      line-height: 20px;
-    }
 
     .Menu {
       display: flex;
-      gap: 1rem;
-      margin-right: 24px;
     }
 
     .Menuicon {
-      color: var(--primaryColor);
       display: none;
     }
   }
@@ -435,6 +420,10 @@ ul {
     align-items: center;
     justify-content: center;
     background-image: none;
+    background-image: url(./images/Header_bg_for_desktop.svg);
+    background-position: bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
 
     .bg {
       display: flex;
@@ -443,14 +432,11 @@ ul {
       justify-content: center;
       width: 98%;
       height: 90%;
-      background-image: url(./images/Header_bg_for_desktop.svg);
-      background-position: center;
-      background-size: contain;
-      background-repeat: no-repeat;
 
       .headline {
         width: 60%;
         padding: 1rem;
+        gap: 1rem;
 
         .heading {
           font-size: 48px;
@@ -463,60 +449,29 @@ ul {
           line-height: 28px;
           width: 80%;
         }
-
-        #its_connect {
-          color: var(--primaryColor);
-        }
-
-        .social_icons {
-          list-style: none;
-          display: flex;
-          gap: 1rem;
-
-          .icons {
-            width: 24px;
-            height: 24px;
-          }
-        }
       }
     }
   }
 
   #works {
-    display: grid;
-    align-content: center;
     justify-content: center;
-    padding: 114px 24px;
-    grid-gap: 88px;
 
     .card_works {
-      display: grid;
       grid-auto-flow: column;
-      align-content: center;
-      padding: 16px;
+      padding: 24px;
       grid-gap: 12px;
-      background: white;
-      border: 1px solid #def1e6;
-      border-radius: 16px;
-      height: 500px;
-      width: 100%;
 
       .card_image {
-        height: 450px;
+        height: 100%;
         width: auto;
-      }
-
-      .snapshoot_portpolio {
-        width: 295px;
-        height: 220px;
-        background: url(./images/SnapshootPortfolio.svg);
-        border-radius: 8px;
+        padding-right: 1rem;
       }
 
       .card_detail {
         display: grid;
         align-content: start;
         grid-gap: 12px;
+        height: 465px;
         width: 100%;
 
         .card_title {
@@ -560,149 +515,21 @@ ul {
   }
 
   #about_myself {
-    display: none;
-    padding: 114px 24px;
-    grid-gap: 24px;
-    background: white;
-    border-radius: 0 5rem 0 0;
-
-    .myself {
-      display: grid;
-      grid-gap: 12px;
-
-      .its_connect {
-        color: var(--primaryColor);
-      }
-
-      .social_icons {
-        list-style: none;
-        display: grid;
-        grid-auto-flow: column;
-        justify-content: start;
-        grid-gap: 1rem;
-
-        .icons {
-          width: 24px;
-          height: 24px;
-        }
-      }
-    }
-
-    .myskills {
-      width: 100%;
-      display: grid;
-
-      .languages {
-        width: 100%;
-        display: grid;
-
-        .lan_head {
-          width: 100%;
-          display: grid;
-          grid-auto-flow: column;
-          justify-content: space-between;
-          padding: 1rem 0.1px;
-        }
-
-        .lan_list {
-          display: grid;
-          gap: 12px;
-          width: 100%;
-
-          .lan_list_detail {
-            display: grid;
-            grid-auto-flow: column;
-            justify-content: start;
-            align-items: center;
-            width: 100%;
-            padding: 8px 0.1px;
-            background: #f7f7f9;
-            border-radius: 8px;
-            gap: 1rem;
-
-            .list_img {
-              padding-left: 10px;
-              width: 48px;
-              height: 48px;
-            }
-          }
-        }
-      }
-    }
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 1fr 1fr;
+    padding: 114px 100px;
   }
 
   #contact_form {
-    display: none;
-    flex-direction: column;
-    padding: 114px 24px;
-    grid-gap: 24px;
-    background: #6070ff;
-    border-radius: 5rem 0 0 0;
-    background-image: url(./images/contact\ form\ shapes-mobile.svg);
-    background-position: right;
-    background-repeat: no-repeat;
+    align-items: center;
 
     .contact_detail {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 20px;
-
-      .head {
-        font-style: normal;
-        font-weight: 700;
-        font-size: 40px;
-        line-height: 52px;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        color: white;
-      }
-
-      .detail {
-        font-style: normal;
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 28px;
-        text-align: center;
-        color: #ebebff;
-      }
+      width: 50%;
     }
 
     .form {
-      display: flex;
-      flex-direction: column;
-      gap: 1rem;
-
-      .input {
-        padding: 12px;
-        background: white;
-        border: 1px solid #cfd8dc;
-        border-radius: 8px;
-      }
-
-      .submitt {
-        align-self: flex-start;
-        background: white;
-        border: 1px solid #7f8cff;
-        border-radius: 8px;
-      }
-
-      .submitt:hover {
-        background: #6070ff;
-        box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
-        border-radius: 8px;
-      }
-
-      .submitt:active {
-        background: #2230d2;
-        border-radius: 8px;
-      }
-
-      .submitt:disabled {
-        border: 1px solid #c1c7c0;
-        border-radius: 8px;
-      }
+      width: 50%;
     }
   }
 }

@@ -199,12 +199,12 @@ ul {
         padding-bottom: 1rem;
       }
 
-      .snapshoot_portpolio {
+      /* .snapshoot_portpolio {
         width: 295px;
         height: 220px;
         background: url(./images/SnapshootPortfolio.svg);
         border-radius: 8px;
-      }
+      } */
 
       .card_detail {
         display: grid;
@@ -529,7 +529,11 @@ ul {
     }
 
     .form {
-      width: 50%;
+      width: 40%;
+
+      .submitt {
+        align-self: center;
+      }
     }
   }
 }

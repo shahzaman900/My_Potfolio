@@ -397,6 +397,10 @@ ul {
   #header {
     padding: 1rem 143px;
 
+    .logo-placeholder:hover {
+      transform: rotate(3.142rad);
+    }
+
     .Menu {
       display: flex;
     }
@@ -471,13 +475,15 @@ ul {
       grid-gap: 12px;
       width: 80%;
 
-      
-
       .card_image {
         height: 100%;
         width: auto;
         padding-right: 1rem;
         display: grid;
+      }
+
+      .card_image:hover {
+        transform: scale(0.9);
       }
 
       .card_detail {
@@ -524,9 +530,6 @@ ul {
           color: var(--primaryColor);
         }
       }
-    }
-    .card_works:hover{
-      transform: scale(1);
     }
   }
 

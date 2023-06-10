@@ -471,6 +471,8 @@ ul {
       grid-gap: 12px;
       width: 80%;
 
+      
+
       .card_image {
         height: 100%;
         width: auto;
@@ -522,6 +524,9 @@ ul {
           color: var(--primaryColor);
         }
       }
+    }
+    .card_works:hover{
+      transform: scale(1);
     }
   }
 

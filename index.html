@@ -16,54 +16,46 @@
 	</head>
 	<body>
 		<header id="header">
-			<div class="logo-placeholder">
-				<a href="#"><p class="logo">SHAH</p></a>
-				<div id="Menu">
-					<a href="#portfolio">portfolio</a>
-					<a href="#about">About</a>
-					<a href="#contact">Contact</a>
-				</div>
-			</div>
-			<div class="menu">
-				<a href="#"><span class="material-symbols-outlined"> menu </span></a>
-			</div>
+			<a class="logo-placeholder" href="#">SHAH</a>
+			<a href="#" class="Menuicon"><span class="material-symbols-outlined"> menu </span></a>
+			<ul class="Menu">
+				<li><a class="menu_item" href="#portfolio">portfolio</a></li>
+				<li><a class="menu_item" href="#about">About</a></li>
+				<li><a class="menu_item" href="#contact">Contact</a></li>
+			</ul>
 		</header>
 		<section id="headline_section">
-			<div class="headline">
-				<div>
-					<h1>I'm Shah Zaman. Glad to see you!</h1>
-				</div>
-				<div>
-					<p>
-						I’m a software developer! I can help you build a product
-						, feature or website Look through some of my work and
-						experience! If you like what you see and have a project
-						you need coded, don’t hesitate to contact me.
-					</p>
-				</div>
-				<div><p id="its_connect">LET’S CONNECT</p></div>
-				<div >
-					<ul class="social_icons">
-						<li><a href=""><img
-							class="icons"
-							src="./images/Twetter.svg"
-							alt="twetter"
-						/></a></li>
-						<li><a href=""><img
-							class="icons"
-							src="./images/Linkedin icon.svg"
-							alt="Linkedin"
-						/></a></li>
-						<li><a href=""><img class="icons" src="./images/madiam.svg" alt="madiam" /></a></li>
-						<li><a href=""><img class="icons" src="./images/github.svg" alt="github" /></a></li>
-						<li><a href=""><img class="icons" src="./images/victor.svg" alt="victor" /></a></li>
-					</ul>
+			<div class="bg">
+				<div class="headline">
+						<h1 class="heading">I'm Shah Zaman. Glad to see you!</h1>
+						<p class="discription">
+							I’m a software developer! I can help you build a product
+							, feature or website Look through some of my work and
+							experience! If you like what you see and have a project
+							you need coded, don’t hesitate to contact me.
+						</p>
+						<p id="its_connect">LET’S CONNECT</p>
+						<ul class="social_icons">
+							<li><a href=""><img
+								class="icons"
+								src="./images/Twetter.svg"
+								alt="twetter"
+							/></a></li>
+							<li><a href=""><img
+								class="icons"
+								src="./images/Linkedin icon.svg"
+								alt="Linkedin"
+							/></a></li>
+							<li><a href=""><img class="icons" src="./images/madiam.svg" alt="madiam" /></a></li>
+							<li><a href=""><img class="icons" src="./images/github.svg" alt="github" /></a></li>
+							<li><a href=""><img class="icons" src="./images/victor.svg" alt="victor" /></a></li>
+						</ul>
 				</div>
 			</div>
 		</section>
 		<section id="works">
-			<div class="card_works">
-				<img src="./images/SnapshootPortfolio.svg" alt="SnapshootPortfolio">
+			<div class="card_works card1">
+				<img class="card_image" src="./images/SnapshootPortfolio.svg" alt="SnapshootPortfolio">
 				<div class="card_detail">
           <div class="card_title">
 						<h2>Tonic</h2>
@@ -90,12 +82,12 @@
 						</div>
 					</div>
           <div class="card_action">
-						<button class="enabled">See Project</button>
+						<button type="button">See Project</button>
 					</div>
 				</div>
 			</div>
-			<div class="card_works">
-				<img src="./images/multiPostStories.svg" alt="SnapshootPortfolio">
+			<div class="card_works card2">
+				<img class="card_image" src="./images/multiPostStories.svg" alt="SnapshootPortfolio">
 				<div class="card_detail">
           <div class="card_title">
 						<h2>Multi-Post
@@ -123,12 +115,14 @@
 						</div>
 					</div>
           <div class="card_action">
-						<button class="enabled">See Project</button>
+						<button type="button">See Project</button>
 					</div>
 				</div>
 			</div>
-			<div class="card_works">
-				<img src="./images/tonic.svg" alt="SnapshootPortfolio">
+			<div class="card_works card3">
+				<div class="image">
+					<img class="card_image" src="./images/tonic.svg" alt="SnapshootPortfolio">
+				</div>
 				<div class="card_detail">
           <div class="card_title">
 						<h2>Tonic</h2>
@@ -141,7 +135,7 @@
 						</div>
 					</div>
           <div class="card_discription">
-						<p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+						<p>Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.</p>
 					</div>
           <div class="card_tags">
 						<div class="tag">
@@ -155,12 +149,12 @@
 						</div>
 					</div>
           <div class="card_action">
-						<button class="enabled">See Project</button>
+						<button type="button">See Project</button>
 					</div>
 				</div>
 			</div>
-			<div class="card_works">
-				<img src="./images/multiPostStoriess.svg" alt="SnapshootPortfolio">
+			<div class="card_works card4">
+				<img class="card_image" src="./images/multiPostStoriess.svg" alt="SnapshootPortfolio">
 				<div class="card_detail">
           <div class="card_title">
 						<h2>Multi-Post
@@ -188,44 +182,38 @@
 						</div>
 					</div>
           <div class="card_action">
-						<button class="enabled">See Project</button>
+						<button type="button">See Project</button>
 					</div>
 				</div>
 			</div>
 		</section>
 		<section id="about_myself">
       <div class="myself">
-				<div>
-					<h1>About Myself</h1>
-				</div>
-				<div>
-					<p>
-						I’m a software developer! I can help you build a product
-						, feature or website Look through some of my work and
-						experience! If you like what you see and have a project
-						you need coded, don’t hesitate to contact me.
-					</p>
-				</div>
-				<div><p class="its_connect">LET’S CONNECT</p></div>
-				<div>
-					<ul class="social_icons">
-						<li><a href=""><img
-							class="icons"
-							src="./images/Twetter.svg"
-							alt="twetter"
-						/></a></li>
-						<li><a href=""><img
-							class="icons"
-							src="./images/Linkedin icon.svg"
-							alt="Linkedin"
-						/></a></li>
-						<li><a href=""><img class="icons" src="./images/madiam.svg" alt="madiam" /></a></li>
-						<li><a href=""><img class="icons" src="./images/github.svg" alt="github" /></a></li>
-						<li><a href=""><img class="icons" src="./images/victor.svg" alt="victor" /></a></li>
-					</ul>
-				</div>
+				<h1>About Myself</h1>
+				<p>
+					I’m a software developer! I can help you build a product
+					, feature or website Look through some of my work and
+					experience! If you like what you see and have a project
+					you need coded, don’t hesitate to contact me.
+				</p>
+				<p class="its_connect">LET’S CONNECT</p>
+				<ul class="social_icons">
+					<li><a href=""><img
+						class="icons"
+						src="./images/Twetter.svg"
+						alt="twetter"
+					/></a></li>
+					<li><a href=""><img
+						class="icons"
+						src="./images/Linkedin icon.svg"
+						alt="Linkedin"
+					/></a></li>
+					<li><a href=""><img class="icons" src="./images/madiam.svg" alt="madiam" /></a></li>
+					<li><a href=""><img class="icons" src="./images/github.svg" alt="github" /></a></li>
+					<li><a href=""><img class="icons" src="./images/victor.svg" alt="victor" /></a></li>
+				</ul>
 				<div class="card_action">
-					<button class="enabled">Get my resume</button>
+					<button type="button">Get my resume</button>
 				</div>
 			</div>
       <div class="myskills">

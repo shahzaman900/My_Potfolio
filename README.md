@@ -131,7 +131,7 @@ npx stylelint "**/*.{css,scss}"
 
 ## 👥 Live Demo <a name="authors"></a>
 
--   Live: [@livedemo]([https://github.com/sheezu900/](https://sheezu900.github.io/My_Potfolio/))
+-   Live: [@livedemo](https://sheezu900.github.io/My_Potfolio/))
 
 <p align="right">(<a href="#live-demo">back to top</a>)</p>
 

@@ -22,7 +22,7 @@
     -   [Usage](#usage)
     -   [Run tests](#Run-tests)
 -   [👥 Authors](#authors)
--   [🔭 Live Demo](#live-demo)
+-   [🎥 Live Demo](#live-demo)
 -   [🔭 Future Features](#future-features)
 -   [🤝 Contributing](#contributing)
 -   [⭐️ Show your support](#support)
@@ -130,6 +130,12 @@ npx stylelint "**/*.{css,scss}"
 -   LinkedIn: [@Linkedin](https://www.linkedin.com/in/shahzaman900/)
 
 <p align="right">(<a href="#live-demo">back to top</a>)</p>
+
+## 🎥 Live Demo <a name="authors"></a>
+
+-   Live Demo: [@LiveDemo](https://sheezu900.github.io/My_Potfolio/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## 🔭 Future Features <a name="future-features"></a>

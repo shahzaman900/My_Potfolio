@@ -129,10 +129,6 @@ npx stylelint "**/*.{css,scss}"
 -   GitHub: [@githubhandle](https://github.com/sheezu900/)
 -   LinkedIn: [@Linkedin](https://www.linkedin.com/in/shahzaman900/)
 
-## 👥 Live Demo <a name="authors"></a>
-
--   Live: [@livedemo](https://sheezu900.github.io/My_Potfolio/))
-
 <p align="right">(<a href="#live-demo">back to top</a>)</p>
 
 

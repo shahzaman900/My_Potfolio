@@ -397,6 +397,10 @@ ul {
   #header {
     padding: 1rem 143px;
 
+    .logo-placeholder:hover {
+      transform: rotate(3.142rad);
+    }
+
     .Menu {
       display: flex;
     }
@@ -476,6 +480,10 @@ ul {
         width: auto;
         padding-right: 1rem;
         display: grid;
+      }
+
+      .card_image:hover {
+        transform: scale(0.9);
       }
 
       .card_detail {

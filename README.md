@@ -140,7 +140,7 @@ npx stylelint "**/*.{css,scss}"
 
 ## 🎥 Project Presentation
 
--   Project Presentation: [@Project_Presentation]([https://sheezu900.github.io/My_Potfolio/](https://www.loom.com/share/87098d6149904bdcbbd44d789346c488?sid=c53cf212-9aa5-4ce0-879a-100f4abce158))
+-   Project Presentation: [@Project_Presentation] ([https://sheezu900.github.io/My_Potfolio/](https://www.loom.com/share/87098d6149904bdcbbd44d789346c488?sid=c53cf212-9aa5-4ce0-879a-100f4abce158))
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

@@ -473,7 +473,6 @@ ul {
       grid-auto-flow: column;
       padding: 24px;
       grid-gap: 12px;
-      /* width: 80%; */
 
       .card_image {
         height: 100%;

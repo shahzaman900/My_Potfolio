@@ -114,10 +114,9 @@ ul {
     justify-content: space-between;
     align-items: center;
     background-color: white;
-    padding: 4px;
 
     .logo-placeholder {
-      padding: 10px 12px;
+      padding: 16px 12px;
       margin-left: 12px;
       color: var(--primaryColor);
       font-style: normal;
@@ -127,21 +126,31 @@ ul {
     }
 
     .Menu {
-      display: none;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      width: 100%;
+      height: 100vh;
+      background-color: white;
+      position: fixed;
+      top: 70px;
       gap: 1rem;
-      padding: 8px;
       margin-right: 24px;
 
-      .menu_item {
-        color: #344563;
-        padding: 0.5rem;
+      .li {
+        padding: 1.5rem;
+
+        .menu_item {
+          color: #344563;
+          padding: 0.5rem;
+        }
       }
     }
 
     .Menuicon {
       color: var(--primaryColor);
-      padding: 10px 12px;
-      margin-left: 12px;
+      padding: 16px 12px;
+      margin-right: 12px;
       display: flex;
     }
   }

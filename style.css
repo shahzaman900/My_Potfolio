@@ -12,6 +12,11 @@
   --backgroundColor: #f7f7f9;
 }
 
+#cross {
+  display: flex;
+  justify-content: end;
+}
+
 body {
   background-color: #f7f7f9;
   height: 100vh;
@@ -110,6 +115,8 @@ ul {
 @media screen and (min-width: 340px) {
   #header {
     display: flex;
+    position: fixed;
+    width: 100%;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
@@ -126,25 +133,33 @@ ul {
     }
 
     .Menu {
-      display: flex;
+      display: none;
       flex-direction: column;
       text-align: center;
       width: 100%;
       height: 100vh;
-      background-color: white;
+      background: #6070ffd7;
+      backdrop-filter: blur(5px);
       position: fixed;
-      top: 70px;
-      gap: 1rem;
+      top: 0;
       margin-right: 24px;
 
       .li {
-        padding: 1.5rem;
+        padding: 0.5rem;
+        display: flex;
+        margin-left: 1rem;
 
         .menu_item {
-          color: #344563;
+          color: white;
           padding: 0.5rem;
+          font-size: 1.5rem;
+          font-weight: 600;
         }
       }
+    }
+
+    .Menu:active {
+      display: none;
     }
 
     .Menuicon {
@@ -405,7 +420,8 @@ ul {
 
 @media screen and (min-width: 768px) {
   #header {
-    padding: 1rem 143px;
+    padding: 10px 36px;
+    position: unset;
 
     .logo-placeholder:hover {
       transform: rotate(3.142rad);
@@ -413,6 +429,26 @@ ul {
 
     .Menu {
       display: flex;
+      flex-direction: row;
+      gap: 1rem;
+      margin-right: 24px;
+      justify-content: end;
+      position: unset;
+      height: unset;
+      background: unset;
+      width: unset;
+      text-align: unset;
+
+      .li {
+        padding: 6px;
+
+        .menu_item {
+          color: #344563;
+          padding: 0.5rem;
+          font-size: unset;
+          font-weight: unset;
+        }
+      }
     }
 
     .Menuicon {
@@ -441,14 +477,14 @@ ul {
       height: 90%;
 
       .headline {
-        width: 60%;
+        width: 80%;
         padding: 1rem;
         gap: 1rem;
 
         .heading {
           font-size: 48px;
           line-height: 60px;
-          width: 50%;
+          width: 70%;
         }
 
         .discription {

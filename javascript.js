@@ -14,10 +14,3 @@ menuItems.forEach((individualSection) => {
     menuIcon.style.display = menuIcon.style.display === 'flex' ? 'none' : 'flex';
   };
 });
-
-function scrollSection(event) {
-  event.preventDefault();
-  const sectionId = this.getAttribute('href');
-  const targetedSection = document.querySelector(sectionId);
-  targetedSection.scrollIntoView({ behavior: 'smooth' });
-}

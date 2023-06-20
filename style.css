@@ -464,7 +464,7 @@ ul {
     justify-content: center;
     background-image: none;
     background-image: url(./images/Header_bg_for_desktop.svg);
-    background-position: bottom;
+    background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
 

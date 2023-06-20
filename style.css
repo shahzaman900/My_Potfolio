@@ -435,6 +435,9 @@ ul {
       justify-content: end;
       position: unset;
       height: unset;
+      background: unset;
+      width: unset;
+      text-align: unset;
 
       .li {
         padding: 6px;
@@ -442,6 +445,8 @@ ul {
         .menu_item {
           color: #344563;
           padding: 0.5rem;
+          font-size: unset;
+          font-weight: unset;
         }
       }
     }

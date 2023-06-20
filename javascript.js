@@ -11,9 +11,8 @@ document.getElementById('crossIcon').onclick = () => {
 
 menuItems.forEach((individualSection) => {
   individualSection.onclick = () => {
-    menuIcon.style.display =
-      menuIcon.style.display === 'flex' ? 'none' : 'flex';
-	};
+    menuIcon.style.display = menuIcon.style.display === 'flex' ? 'none' : 'flex';
+  };
 });
 
 function scrollSection(event) {

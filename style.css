@@ -12,11 +12,6 @@
   --backgroundColor: #f7f7f9;
 }
 
-#cross {
-  display: flex;
-  justify-content: end;
-}
-
 body {
   background-color: #f7f7f9;
   height: 100vh;

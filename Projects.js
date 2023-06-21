@@ -116,7 +116,7 @@ const projectMethod = () => {
                  </div>
                </div>
               <div class="card_action">
-              <button onclick="button(${card.id})" class="btn" id="${card.button}" type="button">See Project</button>
+              <button onclick="button(${card.id})" class="btn" id="btn" type="button">See Project</button>
               </div>
                </div>`;
 
@@ -127,8 +127,8 @@ const projectMethod = () => {
 projectMethod();
 
 const modal = document.getElementById('model');
+const btn = document.getElementById('btn');
 
-// eslint-disable-next-line no-unused-vars
 function button(id) {
   modal.style.display = 'flex';
   const card = projects.find((card) => card.id === id);
@@ -199,10 +199,12 @@ function button(id) {
   modal.appendChild(project);
   setTimeout(() => {
     const span = document.getElementById('modelcrossIcon');
-    // eslint-disable-next-line func-names
-    span.onclick = function () {
+    span.onclick = function shah() {
       modal.style.display = 'none';
       modal.removeChild(project);
     };
   }, 50);
 }
+let id;
+const cardID = projects.find((card) => card.id === id);
+btn.onclick = button(cardID.id);

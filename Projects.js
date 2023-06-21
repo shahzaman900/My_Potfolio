@@ -71,7 +71,7 @@ const projectMethod = () => {
   projects.map((card) => {
     const project = document.createElement('div');
     project.classList.add('card_works');
-    // project.classList.add(card.card);
+    project.classList.add(card.card);
     project.innerHTML= `<img
 					class="card_image "
 					src=${card.image}

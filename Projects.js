@@ -128,9 +128,8 @@ const projectMethod = () => {
 projectMethod();
 
 
-// Get the modal
+
 var modal = document.getElementById("model");
-// var modal = document.getElementById("model");
 
 
 function button(id) {

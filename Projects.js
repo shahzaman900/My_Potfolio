@@ -1,5 +1,6 @@
 let projects = [
   {
+    id: 1,
     card: 'card1',
     image: './images/SnapshootPortfolio.svg',
     Projectname: 'Tonic',
@@ -13,9 +14,11 @@ let projects = [
       html: 'HTML',
       css: 'CSS',
       javascript: 'JavaScript'
-    }
+    },
+    button: 'myBtn'
   },
   {
+    id: 2,
     card: 'card2',
     image: './images/multiPostStories.svg',
     Projectname: 'Multi-Post',
@@ -29,9 +32,11 @@ let projects = [
       html: 'HTML',
       css: 'CSS',
       javascript: 'JavaScript'
-    }
+    },
+    button: 'myBtn'
   },
   {
+    id: 3,
     card: 'card3',
     image: './images/SnapshootPortfolio.svg',
     Projectname: 'Tonic',
@@ -45,9 +50,11 @@ let projects = [
       html: 'HTML',
       css: 'CSS',
       javascript: 'JavaScript'
-    }
+    },
+    button: 'myBtn'
   },
   {
+    id: 4,
     card: 'card4',
     image: './images/multiPostStories.svg',
     Projectname: 'MultiPost',
@@ -61,7 +68,8 @@ let projects = [
       html: 'HTML',
       css: 'CSS',
       javascript: 'JavaScript'
-    }
+    },
+    button: 'myBtn'
   }
 ]
 
@@ -71,7 +79,7 @@ const projectMethod = () => {
   projects.map((card) => {
     const project = document.createElement('div');
     project.classList.add('card_works');
-    // project.classList.add(card.card);
+    project.classList.add(card.card);
     project.innerHTML= `<img
 					class="card_image "
 					src=${card.image}
@@ -109,7 +117,7 @@ const projectMethod = () => {
 						</div>
 					</div>
 					<div class="card_action">
-						<button type="button">See Project</button>
+						<button onclick="button(${card.id})" class="btn" id="${card.button}" type="button">See Project</button>
 					</div>
 				</div>`
 
@@ -118,3 +126,96 @@ const projectMethod = () => {
 }
 
 projectMethod();
+
+
+// Get the modal
+var modal = document.getElementById("model");
+// var modal = document.getElementById("model");
+
+
+function button(id) {
+  modal.style.display = "flex";
+  const card = projects.find((card) => card.id === id);
+  const project = document.createElement('div');
+    project.classList.add('modelsection');
+  project.classList.add(card.card);
+    project.innerHTML= `<div class="header">
+					<div>
+						<h2>${card.Projectname}</h2>
+						<div class="card_historyy">
+							<div class="card_history_detaill"><p>${card.history['proName']}</p></div>
+							<div>
+								<img src="./images/Counter.svg" alt="dot" />
+							</div>
+							<div class="card_history_detail">
+								<p>${card.history['tech']}</p>
+							</div>
+							<div>
+								<img src="./images/Counter.svg" alt="dot" />
+							</div>
+							<div class="card_history_detail"><p>${card.history['date']}</p></div>
+						</div>
+					</div>
+					<a href="#" id="modelcross" class="Menuicon"
+						><span
+							id="modelcrossIcon"
+							style="color: black"
+							class="material-symbols-outlined"
+						>
+							close
+						</span>
+					</a>
+				</div>
+				<div class="modelimage">
+					<img
+						class="card_imagee"
+						src=${card.image}
+						alt="Tonic Project"
+					/>
+				</div>
+				<div class="modeldisc">
+					<div class="card_discription">
+						<p>
+							${card.disc}
+						</p>
+					</div>
+					<div class="card_tags">
+						<div class="modeltags">
+							<div class="tag">
+								<span class="small">${card.tags['html']}</span>
+							</div>
+							<div class="tag">
+								<span class="small">${card.tags['css']}</span>
+							</div>
+							<div class="tag">
+								<span class="small"
+									>${card.tags['javascript']}</span
+								>
+							</div>
+						</div>
+						<div class="card_action">
+						<button class="modelbtn" type="button"> See lice <img style="height: 24px; width: 24px; margin-left: 6px;" src="./images/see_live.svg" alt=""></button>
+						<button class="modelbtn" type="button"> See source <img style="height: 24px; width: 24px; margin-left: 6px;" src="./images/see source.svg" alt=""> </button>
+					</div>
+					</div>
+				</div>`
+
+  modal.appendChild(project);
+  setTimeout(() => {
+    span = document.getElementById("modelcrossIcon");
+    span.onclick = function() {
+      modal.style.display = "none";
+      modal.removeChild(project)
+      console.log('working');
+    }
+  }, 50);
+}
+
+var span = document.getElementById("modelcrossIcon");
+
+
+
+// function closeModel(id) {
+//   modal.style.display = "none";
+
+// }

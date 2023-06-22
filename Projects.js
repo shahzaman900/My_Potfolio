@@ -176,20 +176,21 @@ function button(id) {
                </p>
           </div>
             <div class="card_tags">
-             <div class="modeltags">
-          <div class="tag">
+              <div class="modeltags">
+               <div class="tag">
                  <span class="small">${card.tags.html}</span>
               </div>
               <div class="tag">
                <span class="small">${card.tags.css}</span>
-                 </div>
-                <div class="tag">
-              <span class="small"
+              </div>
+              <div class="tag">
+                <span class="small"
                  >${card.tags.javascript}</span
                        >
-               </div>
-                 </div>
-             <div class="card_action">
+              </div>
+            </div>
+            <hr class="hr">
+            <div class="card_action">
                   <button class="modelbtn" type="button"> See lice <img style="height: 24px; width: 24px; margin-left: 6px;" src="./images/see_live.svg" alt=""></button>
                    <button class="modelbtn" type="button"> See source <img style="height: 24px; width: 24px; margin-left: 6px;" src="./images/see source.svg" alt=""> </button>
          </div>

@@ -485,6 +485,11 @@ ul {
             gap: inherit;
           }
 
+          .hr {
+            display: flex;
+            width: 100%;
+          }
+
           .card_action {
             display: flex;
             gap: inherit;
@@ -798,6 +803,22 @@ ul {
             display: flex;
             flex-wrap: wrap;
             gap: inherit;
+
+            .tag {
+              float: left;
+              padding-right: 0.5rem;
+
+              .small {
+                background: #ebebff;
+                border-radius: 8px;
+                padding: 4px 12px;
+                color: var(--primaryColor);
+              }
+            }
+          }
+
+          .hr {
+            display: none;
           }
 
           .card_action {
@@ -806,18 +827,6 @@ ul {
 
             .modelbtn {
               padding: 4px 10px;
-            }
-          }
-
-          .tag {
-            float: left;
-            padding-right: 0.5rem;
-
-            .small {
-              background: #ebebff;
-              border-radius: 8px;
-              padding: 4px 12px;
-              color: var(--primaryColor);
             }
           }
         }

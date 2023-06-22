@@ -1,5 +1,5 @@
+// /////////////////////////////////// email validation /////////////////
 const email = document.getElementById('email');
-
 email.addEventListener('input', (event) => {
   const text = event.target.value;
   if (text !== text.toLowerCase()) {
@@ -9,6 +9,29 @@ email.addEventListener('input', (event) => {
   }
 });
 
+// ////////////////// Local Storage //////////////////
+const form = document.getElementById('form');
+let formDataObj;
+form.addEventListener('submit', (event) => {
+  event.preventDefault();
+  const myFormData = new FormData(event.target);
+  formDataObj = {};
+  myFormData.forEach((value, key) => {
+    formDataObj[key] = value;
+  });
+  const formData = JSON.stringify(formDataObj);
+  localStorage.setItem('Data', formData);
+});
+
+const userData = JSON.parse(localStorage.getItem('Data'));
+const body = document.getElementById('body');
+body.onload = () => {
+  email.value = userData.email;
+  document.getElementById('text').value = userData.text;
+  document.getElementById('textarea').value = userData.message;
+};
+
+// ///////////// project object //////////////
 const projects = [{
   id: 1,
   card: 'card1',

@@ -1,3 +1,14 @@
+const email = document.getElementById('email');
+
+email.addEventListener('input', (event) => {
+  const text = event.target.value;
+  if (text !== text.toLowerCase()) {
+    email.setCustomValidity('Please write email in LowerCase');
+  } else {
+    email.setCustomValidity('');
+  }
+});
+
 const projects = [{
   id: 1,
   card: 'card1',

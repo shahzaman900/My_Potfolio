@@ -104,7 +104,7 @@
 		</section>
 		<section id="works"></section>
 		<section id="model">
-			
+
 		</section>
 		<section id="about_myself">
 			<div class="myself">
@@ -240,16 +240,19 @@
 				action="https://formspree.io/f/mknalvyr"
 				method="POST"
 				class="form"
+				name="form"
 			>
 				<input
 					class="input"
 					type="text"
 					name="text"
 					maxlength="30"
+
 					required
 					placeholder="Enter your name"
 				/>
 				<input
+					id="email"
 					class="input"
 					type="email"
 					name="email"
@@ -264,7 +267,7 @@
 					rows="5"
 					required
 				></textarea>
-				<button type="submit" class="submitt">Get in touch</button>
+				<button type="submit" class="submitt"  onclick="ValidateEmail(document.form.email)" >Get in touch</button>
 			</form>
 		</section>
 		<script src="Projects.js"></script>

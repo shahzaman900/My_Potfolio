@@ -752,7 +752,6 @@ ul {
     .modelsection {
       padding: 1rem;
       width: 80%;
-      height: 80%;
       background-color: white;
       border: 1px solid #ebecf0;
       box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
@@ -818,7 +817,7 @@ ul {
           }
 
           .hr {
-            display: none;
+            display: flex;
           }
 
           .card_action {

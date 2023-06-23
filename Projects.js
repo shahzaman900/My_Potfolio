@@ -1,5 +1,5 @@
+// ///////////////// email validation /////////////////
 const email = document.getElementById('email');
-
 email.addEventListener('input', (event) => {
   const text = event.target.value;
   if (text !== text.toLowerCase()) {
@@ -8,6 +8,28 @@ email.addEventListener('input', (event) => {
     email.setCustomValidity('');
   }
 });
+
+// ////////////////// Local Storage //////////////////
+const form = document.getElementById('form');
+let formDataObj;
+form.addEventListener('submit', (event) => {
+  const myFormData = new FormData(event.target);
+  formDataObj = {};
+  myFormData.forEach((value, key) => {
+    formDataObj[key] = value;
+  });
+  const formData = JSON.stringify(formDataObj);
+  localStorage.setItem('Data', formData);
+});
+
+const userData = JSON.parse(localStorage.getItem('Data'));
+window.onload = () => {
+  email.value = userData.email;
+  document.getElementById('text').value = userData.text;
+  document.getElementById('textarea').value = userData.message;
+};
+
+// ///////////// project object //////////////
 
 const projects = [{
   id: 1,
@@ -138,8 +160,7 @@ const projectMethod = () => {
 projectMethod();
 
 const modal = document.getElementById('model');
-const btn = document.getElementById('btn');
-
+// eslint-disable-next-line no-unused-vars
 function button(id) {
   modal.style.display = 'flex';
   const card = projects.find((card) => card.id === id);
@@ -217,6 +238,3 @@ function button(id) {
     };
   }, 50);
 }
-let id;
-const cardID = projects.find((card) => card.id === id);
-btn.onclick = button(cardID.id);

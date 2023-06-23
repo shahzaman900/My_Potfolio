@@ -17,7 +17,7 @@
 		/>
 		<title>ShahZaman Portfolio</title>
 	</head>
-	<body>
+	<body id="body">
 		<header id="header">
 			<a class="logo-placeholder" href="#">SHAH</a>
 			<a href="#" class="Menuicon"
@@ -103,9 +103,7 @@
 			</div>
 		</section>
 		<section id="works"></section>
-		<section id="model">
-
-		</section>
+		<section id="model"></section>
 		<section id="about_myself">
 			<div class="myself">
 				<h1>About Myself</h1>
@@ -244,11 +242,11 @@
 				id="form"
 			>
 				<input
+					id="text"
 					class="input"
 					type="text"
 					name="text"
 					maxlength="30"
-
 					required
 					placeholder="Enter your name"
 				/>
@@ -256,11 +254,13 @@
 					id="email"
 					class="input"
 					type="email"
+					value=""
 					name="email"
 					required
 					placeholder="Enter your email"
 				/>
 				<textarea
+					id="textarea"
 					class="input"
 					maxlength="500"
 					name="message"
@@ -268,7 +268,7 @@
 					rows="5"
 					required
 				></textarea>
-				<button type="submit" class="submitt"   >Get in touch</button>
+				<button type="submit" class="submitt">Get in touch</button>
 			</form>
 		</section>
 		<script src="Projects.js"></script>

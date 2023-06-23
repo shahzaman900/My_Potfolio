@@ -13,7 +13,6 @@ email.addEventListener('input', (event) => {
 const form = document.getElementById('form');
 let formDataObj;
 form.addEventListener('submit', (event) => {
-  event.preventDefault();
   const myFormData = new FormData(event.target);
   formDataObj = {};
   myFormData.forEach((value, key) => {
@@ -24,14 +23,14 @@ form.addEventListener('submit', (event) => {
 });
 
 const userData = JSON.parse(localStorage.getItem('Data'));
-const body = document.getElementById('body');
-body.onload = () => {
+window.onload = () => {
   email.value = userData.email;
   document.getElementById('text').value = userData.text;
   document.getElementById('textarea').value = userData.message;
 };
 
 // ///////////// project object //////////////
+
 const projects = [{
   id: 1,
   card: 'card1',

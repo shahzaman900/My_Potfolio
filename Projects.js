@@ -1,4 +1,4 @@
-// /////////////////////////////////// email validation /////////////////
+// ///////////////// email validation /////////////////
 const email = document.getElementById('email');
 email.addEventListener('input', (event) => {
   const text = event.target.value;
@@ -160,8 +160,7 @@ const projectMethod = () => {
 projectMethod();
 
 const modal = document.getElementById('model');
-const btn = document.getElementById('btn');
-
+// eslint-disable-next-line no-unused-vars
 function button(id) {
   modal.style.display = 'flex';
   const card = projects.find((card) => card.id === id);
@@ -239,6 +238,6 @@ function button(id) {
     };
   }, 50);
 }
-let id;
-const cardID = projects.find((card) => card.id === id);
-btn.onclick = button(cardID.id);
+// let id;
+// const cardID = projects.find((card) => card.id === id);
+// btn.onclick = button(cardID.id);

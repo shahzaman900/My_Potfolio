@@ -238,6 +238,3 @@ function button(id) {
     };
   }, 50);
 }
-// let id;
-// const cardID = projects.find((card) => card.id === id);
-// btn.onclick = button(cardID.id);
